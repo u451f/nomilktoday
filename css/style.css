@@ -1,0 +1,164 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font: 12px "Arial", sans-serif;
+	line-height: 1.5em;
+	color: #333;
+}
+
+img {
+	border:none;
+}
+
+hr {
+	display: none;
+}
+ol, ul {
+    list-style-position: inside;
+}
+a { 
+	color:	#2D92DF;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.print {
+    display: block;
+    text-align: right;
+    padding: 0.2em 20px 0.2em 0;
+    background: url(print.png) no-repeat right center;
+}
+blockquote {
+	text-indent: 2.5em;
+}
+.clear {
+	clear:both;
+}
+/*************************************
+* Structure
+*************************************/
+#wrap {
+	padding: 1em 2em 0;
+	margin: 2em;
+	text-align: left;
+	background: #fff url(milk.jpg) right top no-repeat;
+}
+#header {
+	color: #C9C4C0;
+}
+
+#header h1 {
+	font: 3.5em bold serif;
+	letter-spacing: -1px;
+}
+#header a {
+	text-decoration: none;
+}
+/*************************************
+* Content
+*************************************/
+#content h2 {
+    font: 2em bold serif;
+    letter-spacing: -1px;
+    margin-bottom: 1em;
+}
+#content p, #content ul {
+    margin-bottom: 0.5em;
+}
+#content ul {
+	margin: 15px 0 10px 15px;
+}
+#content ul li {
+	margin: 0;
+	list-style-type: disc;
+}
+#content ul.inlinelist {
+	margin: 1em 0;
+    overflow: hidden;
+}
+* html #content ul.inlinelist {
+    height: 1%;
+}
+#content ul.inlinelist li {
+	margin-right: 0.8em;
+    width: 35px;
+	list-style-type: none;
+    display: block;
+    float: left;
+}
+.box {
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+#vegetarian {
+    background: paleGoldenRod;
+}
+#vegan { 
+    background: LightGoldenRodYellow;
+}
+#ask { 
+    background: paleGoldenRod;
+}
+#presentation {
+    background: #333;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    color: #fff;
+}
+#presentation p {
+    margin: 0;
+}
+#presentation ol {
+    list-style-position: inside;
+    overflow: hidden;
+}
+* html #presentation ol {
+    height: 1%;
+}
+#presentation ol li {
+    float: left;
+    margin-right: 0.5em;
+}
+dl {
+    overflow: hidden;
+}
+* html dl {
+    height: 1%;
+}
+dt, dd {
+    float: left;
+    width: 70%;
+}
+dt {
+    clear: both;
+    width: 29%;
+}
+dd {
+    margin-bottom: 1em;
+}
+/*************************************
+* Footer
+*************************************/
+#footer {
+    clear: both;
+    padding-top: 1em;
+}
+#footer h3 {
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 0.3em 0;
+    border-bottom: 1px dotted #ddd;
+}
+#footer ul { padding-top: 0.2em;}
+
+#footer ul li {
+	display: inline;
+	margin-right: 0.5em;
+}
